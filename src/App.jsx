@@ -43,7 +43,7 @@ function App() {
         <p>
           Esta web usa una función sencilla en Cloudflare Pages Functions ubicada
           en <code>/functions/api/hola.js</code>. Al abrir <code>/api/hola</code>,
-          el worker responde un JSON con un saludo y la hora del servidor.
+          el worker responde un JSON con un saludo.
         </p>
         <button onClick={handleFetchHola} disabled={loading}>
           {loading ? 'Consultando...' : 'Probar /api/hola'}
